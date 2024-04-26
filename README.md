@@ -18,3 +18,5 @@ docker-compose up -d
 9. Levantar: ```npm run start:dev```
 10. Ejecutar el Seed, para insertar datos en la BD: GET http://localhost:3000/api/seed/
 11. Conectar al servidor Postgres a traves de algun Aplicativo como pgAdmin 4.
+12. Diagrama ER: https://drive.google.com/file/d/1J2wvEgmq-jgOaMPPDpteAMldk87AmvM3/view?usp=drive_link
+
