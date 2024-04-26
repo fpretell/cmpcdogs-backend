@@ -13,5 +13,5 @@
 ```
 docker-compose up -d
 ```
-
 6. Levantar: ```npm run start:dev```
+7. Ejecutar el Seed, para insertar datos en la BD: GET http://localhost:3000/api/seed/

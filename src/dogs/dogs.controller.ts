@@ -32,7 +32,6 @@ export class DogsController {
     return this.dogsService.remove(id);
   }
 
-
   @Post('upload/:id')
   @UseInterceptors(FileInterceptor('file', {
     storage: diskStorage({
