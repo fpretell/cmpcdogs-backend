@@ -55,6 +55,8 @@ export class SeedService {
         await this.dogRepository.save(dog);
         
       })
+      
     }
+    return 'Seed Executed';
   }
 }

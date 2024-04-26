@@ -13,5 +13,7 @@
 ```
 docker-compose up -d
 ```
+6. Asegurarse de tener node 20. Versiones usadas:  Node(v20.12.2) y Npm (v10.5.0)
 6. Levantar: ```npm run start:dev```
 7. Ejecutar el Seed, para insertar datos en la BD: GET http://localhost:3000/api/seed/
+8. Conectar al servidor Postgres a traves de algun Aplicativo como pgAdmin 4.
